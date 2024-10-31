@@ -32,9 +32,6 @@ app.use(cookieParser());
 
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.MDB_URL);
-// mongoose.connect(
-//   'mongodb+srv://yuritoma4:Cws1234567890.@andrey.plogg7l.mongodb.net/'
-// );
 
 const db = mongoose.connection;
 
